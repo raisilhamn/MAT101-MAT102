@@ -1,4 +1,4 @@
-package pkg082011633090;
+package Latihan;
 import java.util.Scanner;
 
 public class TinggiMaksimum {
