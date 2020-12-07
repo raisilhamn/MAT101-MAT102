@@ -17,8 +17,7 @@ public class Complex {
     
     public Complex(double real, double imaj){
         this.real=real;
-        this.imaj=imaj;
-        
+        this.imaj=imaj;  
     }
     
     
@@ -27,9 +26,6 @@ public class Complex {
      *   real + imaj i misalkan : 3.2 + 5.6i
      */
     public void display(){
-//        Complex a = new Complex(real, imaj);
-//        this.real=real;
-//        this.imaj=imaj;
         if (imaj == 0)
             complex = real + "";
         if (real == 0) 
