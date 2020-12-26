@@ -1,4 +1,4 @@
-package Latihan;
+package tugaslawas;
 import java.util.*;
 
 public class DataArrayKembar {

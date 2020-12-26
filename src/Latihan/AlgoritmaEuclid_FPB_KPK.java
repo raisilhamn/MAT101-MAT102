@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Latihan;
+package tugaslawas;
 import java.util.*;
 /**This program prints the greatest common divisor of its two command-line 
  * arguments, using a recursive implementation of Euclid’s algorithm.
