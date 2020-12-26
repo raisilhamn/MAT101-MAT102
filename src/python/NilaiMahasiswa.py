@@ -18,7 +18,6 @@ class Mahasiswa:
         print('total  = ', self.na)
         print('huruf  = ', self.nh)
 
-
     def setUts(self, uts):
         self.uts = uts
 

@@ -8,9 +8,9 @@ def deleteDigit(digit, bilangan):
     return a_integer
 
 
-def ambilKembar(bilangan1, bilangan2):
-    array1 = [int(x) for x in str(bilangan1)]
-    array2 = [int(x) for x in str(bilangan2)]
+def deleteDigit2(bilangan1, bilangan2):
+    array1 = list(map(int, str(bilangan1)))
+    array2 = list(map(int, str(bilangan2)))
     panjang1 = len(array1)
     panjang2 = len(array2)
     kembar = []
@@ -19,11 +19,11 @@ def ambilKembar(bilangan1, bilangan2):
             if array1[i] == array2[j]:
                 kembar.append(array1[i])
     d = list(dict.fromkeys(kembar))
-    strings = [str(integer) for integer in d]
-    a_string = "".join(strings)
-    a_integer = int(a_string)
-    return a_integer
+    temp = [str(integer) for integer in d]
+    temp_string = "".join(temp)
+    temp_int = int(temp_string)
+    return temp_int
 
 
 print(deleteDigit(12345, 23))
-print(ambilKembar(23456, 13478))
+print(deleteDigit2(23456, 13478))

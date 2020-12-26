@@ -36,3 +36,8 @@
 # pow(x, y) float Returns x to the y power
 # repr(x) str Returns a string representation of x
 # str(x) str Returns a string representation of x
+# bilangan = [1, 2, 3, 4, 5]
+# print(max(bilangan))
+# import  math
+# The math.ceil() method rounds a number upwards to its nearest integer, and the
+# math.floor() method rounds a number downwards to its nearest integer, and returns the result:
