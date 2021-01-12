@@ -32,7 +32,6 @@ def commonFactor(m, n):
         for j in range(len(arr4)):
             if arr3[i] == arr4[j]:
                 arr5.append(arr3[i])
-    # arr5 = list(dict.fromkeys(arr5))
     return arr5
 
 
