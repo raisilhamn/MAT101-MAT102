@@ -2,7 +2,7 @@
 package projectmatrix;
 
 
-public class ProjectMatrix {
+public class Main {
 
     
     public static void main(String[] args) {
